@@ -423,4 +423,38 @@ section {
   
 }
 
+/* vision and mission section css */
+
+.vision .container .title-section {
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 0 10px;
+}
+
+.vision .container .title-section h3 {
+  text-align: center;
+  padding: 30px;
+}
+.vision .container .title-section .img {
+  background-color: var(--primary-color);
+  display: flex
+}
+.vision .container .title-section .img img {
+   max-width: 35%;
+   margin: auto;
+}
+
+.vision .container .row .title,
+.vision .container .row .p {
+  text-align: right;
+}
+
+
+/* vision and mission section responsive */
+@media screen and (max-width: 768px) {
+
+  
+}
+
 
