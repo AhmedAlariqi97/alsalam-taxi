@@ -483,4 +483,34 @@ section {
   
 }
 
+/* services section css */
+.services .container .title-section {
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.services .container .title-section h3 {
+  text-align: center;
+  padding: 30px;
+}
+.services .container .title-section .img {
+  background-color: var(--primary-color);
+  display: flex
+}
+.services .container .title-section .img img {
+   max-width: 35%;
+   margin: auto;
+}
+
+
+
+/* services section responsive */
+@media screen and (max-width: 768px) {
+
+  
+}
+
 
