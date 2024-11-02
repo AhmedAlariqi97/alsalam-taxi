@@ -430,6 +430,7 @@ section {
   background-color: var(--secondary-color);
   color: var(--white-color);
   padding: 0 10px;
+  margin-bottom: 30px;
 }
 
 .vision .container .title-section h3 {
@@ -466,6 +467,13 @@ section {
 .vision .container .row .p {
   text-align: right;
   color: var(--white-color);
+}
+
+.vision .container .row .title h3 {
+  font-size: 50px;
+}
+.vision .container .row .p p {
+  font-size: 30px;
 }
 
 
