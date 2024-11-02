@@ -445,9 +445,27 @@ section {
    margin: auto;
 }
 
+.vision .container .row .left,
+.vision .container .row .right {
+  padding: 125px 28px 20px 20px;
+}
+.vision .container .row .right {
+  background-image: url(../images/vision.jpeg);
+  background-position: center center;
+    background-size: cover;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+.vision .container .row .left {
+  background-image: url(../images/mission.jpeg);
+  background-position: center center;
+    background-size: cover;
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
 .vision .container .row .title,
 .vision .container .row .p {
   text-align: right;
+  color: var(--white-color);
 }
 
 
