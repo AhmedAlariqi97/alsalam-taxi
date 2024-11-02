@@ -505,6 +505,19 @@ section {
    margin: auto;
 }
 
+.services .container .row .icon {
+  display: flex;
+}
+.services .container .row .img {
+  max-width: 70%;
+  margin: auto;
+}
+
+.services .container .row .p p {
+  text-align: center;
+  font-size: 25px;
+}
+
 
 
 /* services section responsive */
