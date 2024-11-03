@@ -33,6 +33,7 @@ main{
 /* Color Variables */
 --primary-color: #097B5E;
 --secondary-color: #1FA180;
+--inpur-bg-color: #dbe1eb;
 --primary-color-hover: ;
 --text-color: #097B5E;
 --text-color-light: #888682;
@@ -521,6 +522,197 @@ section {
 
 
 /* services section responsive */
+@media screen and (max-width: 768px) {
+
+  
+}
+
+/* teams section css */
+
+.teams .container .title-section {
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.teams .container .title-section h3 {
+  text-align: center;
+  padding: 30px;
+}
+.teams .container .title-section .img {
+  background-color: var(--primary-color);
+  display: flex
+}
+.teams .container .title-section .img img {
+   max-width: 35%;
+   margin: auto;
+}
+section.teams-img {
+  height: 110vh;
+  background-image: url(../images/teams.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: var(--section-bg);
+  opacity: .5;
+}
+
+
+
+/* teams section responsive */
+@media screen and (max-width: 768px) {
+
+  
+}
+
+/* contact us section css */
+.contact-us .container .title-section {
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.contact-us .container .title-section h3 {
+  text-align: center;
+  padding: 30px;
+}
+.contact-us .container .title-section .img {
+  background-color: var(--primary-color);
+  display: flex
+}
+.contact-us .container .title-section .img img {
+   max-width: 35%;
+   margin: auto;
+}
+
+.contact-us .container .row .content {
+  padding: 90px 15px;
+}
+
+.contact-us .container .row .content h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-us .container .row .content p {
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* ///// inputs /////*/
+
+.contact-us input:focus ~ label,
+.contact-us textarea:focus ~ label,
+.contact-us input:valid ~ label,
+.contact-us textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.contact-us .styled-input {
+  float: left;
+  width: 100%;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+  .contact-us .styled-input {
+      width:100%;
+  }
+}
+
+.contact-us .styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  /* top: 10px; */
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.contact-us .styled-input.wide { 
+  width: 589px;
+  max-width: 100%;
+}
+
+.contact-us input,
+.contact-us textarea {
+  padding: 15px;
+  border: 0;
+  width: 100%;
+  font-size: 1.4rem;
+  background-color: var(--inpur-bg-color);
+  color: var(--section-bg);
+  border-radius: 4px;
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus { outline: 0; }
+
+.contact-us input:focus ~ span,
+.contact-us textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+.contact-us textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.contact-us .submit-btn {
+  float: right;
+  padding: 7px 35px;
+  margin: 0 15px;
+  border-radius: 7px;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+            0 2px 10px 0 rgba(0,0,0,0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.contact-us .submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+            0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+  .contact-us .submit-btn {
+      width:100%;
+      float: none;
+      text-align:center;
+  }
+}
+
+.contact-us input[type=checkbox] + label {
+color: #ccc;
+font-style: italic;
+} 
+
+.contact-us input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+}
+
+/* contact us section responsive */
 @media screen and (max-width: 768px) {
 
   
