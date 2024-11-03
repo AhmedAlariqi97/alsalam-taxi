@@ -290,9 +290,13 @@ section {
     font-size: 2rem;
     cursor: pointer;
     color: var(--text-color);
+    position: relative;
+    left: 15px;
   }
   .header-active .navOpen-btn{
     color: var(--text-color);
+    position: relative;
+    left: 15px;
   }
 }
 
@@ -375,11 +379,12 @@ section {
   background: var(--primary-color);
   width: 426px;
   height: 25px;
-    position: relative;
+    position: absolute;
     right: 762px;
-    top: -10px;
+    /* top: -10px; */
     z-index: -5;
     opacity: .9;
+    bottom: -209px;
 }
 
 
