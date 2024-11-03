@@ -782,6 +782,11 @@ footer.footer {
 /* footer section responsive */
 @media screen and (max-width: 768px) {
 
+  .footer .container .row .address-links {
+    display: grid;
+    text-align: center;
+  }
+
   
 }
 
