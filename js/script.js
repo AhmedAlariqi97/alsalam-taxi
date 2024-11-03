@@ -1,4 +1,21 @@
-
+// Swiper js
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  // grabCursor: true,
+  loop: true,
+  autoplay: {
+    delay: 2500,  // Time in milliseconds between slides (2.5 seconds)
+    disableOnInteraction: false,  // Continues autoplay after user interaction
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 
 // Nav open close
