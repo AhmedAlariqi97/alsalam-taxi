@@ -306,7 +306,7 @@ section {
   background-color: #15142A96;
 }
 .hero .background {
-  background: rgba(0, 0, 0, 0.38) url(../images/IMG_0667-scaled.jpg);
+  background: rgba(0, 0, 0, 0.28) url(../images/IMG_0667-scaled.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: darken;
@@ -468,14 +468,16 @@ section {
   padding: 125px 28px 20px 20px;
 }
 .vision .container .row .right {
-  background-image: url(../images/vision.jpeg);
+  background: rgba(0, 0, 0, 0.28) url(../images/vision.jpeg);
   background-position: center center;
-    background-size: cover;
-    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+  background-size: cover;
+  background-blend-mode: darken;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 .vision .container .row .left {
-  background-image: url(../images/mission.jpeg);
+  background: rgba(0, 0, 0, 0.28) url(../images/mission.jpeg);
   background-position: center center;
+  background-blend-mode: darken;
     background-size: cover;
     filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
@@ -569,11 +571,12 @@ section {
 }
 section.teams-img {
   height: 110vh;
-  background-image: url(../images/teams.jpg);
+  background: rgba(0, 0, 0, 0.28) url(../images/teams.jpg);
   background-position: center;
+  background-blend-mode: darken;
+  background-attachment: fixed;
   background-size: cover;
-  background-color: var(--section-bg);
-  opacity: .5;
+  /* background-color: var(--section-bg); */
 }
 
 .container.teams-p {

@@ -89,9 +89,10 @@ const activePage = window.location.pathname;
   sr.reveal(`.title-section,.weWorkTitle,.address-links`, {interval:100,})
 
 sr.reveal(`.content,.about-left,.social-icons,.vision .right,.services-box div:nth-child(1),
-  .services-box div:nth-child(3),.weWork .box:nth-child(1),.weWork .box:nth-child(2)`, {origin: 'left'})
+  .services-box div:nth-child(3),.weWork .box:nth-child(1),.weWork .box:nth-child(2), .teams-p p:nth-child(1)`, {origin: 'left'})
+  
 sr.reveal(`.about-right,.about-left-shape,.footer .img,.contact-us .form,.vision .left,
-  .services-box div:nth-child(2),.weWork .box:nth-child(3)`, {origin: 'right'})
+  .services-box div:nth-child(2),.weWork .box:nth-child(3), .teams-p p:nth-child(2)`, {origin: 'right'})
 
 
   
