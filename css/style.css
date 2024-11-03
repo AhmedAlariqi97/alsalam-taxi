@@ -306,9 +306,10 @@ section {
   background-color: #15142A96;
 }
 .hero .background {
-  background: url(../images/IMG_0667-scaled.jpg);
+  background: rgba(0, 0, 0, 0.38) url(../images/IMG_0667-scaled.jpg);
   background-size: cover;
   background-attachment: fixed;
+  background-blend-mode: darken;
   background-position: center;
   padding-bottom: 50px;
 }
