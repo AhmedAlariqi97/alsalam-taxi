@@ -426,7 +426,9 @@ section {
 
 /* we work section responsive */
 @media screen and (max-width: 768px) {
-
+  .weWork .container .box {
+    margin: 20px;
+  }
   
 }
 
@@ -486,7 +488,9 @@ section {
 
 /* vision and mission section responsive */
 @media screen and (max-width: 768px) {
-
+  .vision .container .title-section {
+    
+  }
   
 }
 
