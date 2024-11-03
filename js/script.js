@@ -4,7 +4,7 @@ var swiper = new Swiper(".mySwiper", {
   // grabCursor: true,
   loop: true,
   autoplay: {
-    delay: 25000,  // Time in milliseconds between slides (2.5 seconds)
+    delay: 2500,  // Time in milliseconds between slides (2.5 seconds)
     disableOnInteraction: false,  // Continues autoplay after user interaction
   },
   pagination: {
@@ -88,8 +88,10 @@ const activePage = window.location.pathname;
   
   sr.reveal(`.title-section,.weWorkTitle,.address-links`, {interval:100,})
 
-sr.reveal(`.content,.about-left,.social-icons`, {origin: 'left'})
-sr.reveal(`.about-right,.about-left-shape,.footer .img,.contact-us .form`, {origin: 'right'})
+sr.reveal(`.content,.about-left,.social-icons,.vision .right,.services-box div:nth-child(1),
+  .services-box div:nth-child(3),.weWork .box:nth-child(1),.weWork .box:nth-child(2)`, {origin: 'left'})
+sr.reveal(`.about-right,.about-left-shape,.footer .img,.contact-us .form,.vision .left,
+  .services-box div:nth-child(2),.weWork .box:nth-child(3)`, {origin: 'right'})
 
 
   
