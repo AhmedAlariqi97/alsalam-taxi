@@ -568,6 +568,10 @@ section.teams-img {
   opacity: .5;
 }
 
+.gallery .container .swiper img {
+  width: 80%;
+}
+
 
 
 /* teams section responsive */
