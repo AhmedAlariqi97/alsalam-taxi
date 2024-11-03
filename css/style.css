@@ -342,7 +342,11 @@ section {
 
 /* hero responsive */
 @media screen and (max-width: 768px) {
-
+  .hero .contact-content .contact {
+   display: grid;
+   justify-content: center;
+   
+  }
 
 }
 
@@ -383,7 +387,9 @@ section {
 
 /* about section responsive */
 @media screen and (max-width: 768px) {
-
+  .about .container .about-left-shape {
+    right: 0;
+  }
   
 }
 
