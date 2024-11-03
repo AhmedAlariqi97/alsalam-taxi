@@ -395,6 +395,7 @@ section {
 @media screen and (max-width: 768px) {
   .about .container .about-left-shape {
     right: 0;
+    display: none;
   }
   
 }
