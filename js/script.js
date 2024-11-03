@@ -4,7 +4,7 @@ var swiper = new Swiper(".mySwiper", {
   // grabCursor: true,
   loop: true,
   autoplay: {
-    delay: 2500,  // Time in milliseconds between slides (2.5 seconds)
+    delay: 25000,  // Time in milliseconds between slides (2.5 seconds)
     disableOnInteraction: false,  // Continues autoplay after user interaction
   },
   pagination: {
@@ -15,6 +15,17 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+   // Responsive breakpoints
+   breakpoints: {
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 968px
+    968: {
+      slidesPerView: 3,
+    }
+  }
 });
 
 
