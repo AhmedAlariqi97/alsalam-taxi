@@ -721,12 +721,13 @@ font-style: normal;
 /* footer css */
 footer.footer {
   padding: 60px 0;
+  background-color: #eff2f5;
 }
 .footer .container .row .img {
   display: flex;
 }
 .footer .container .row .img img {
-  max-width: 10%;
+  max-width: 20%;
   margin: auto;
 }
 .footer .container .row .social-icons {
