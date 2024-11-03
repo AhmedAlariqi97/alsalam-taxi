@@ -718,4 +718,22 @@ font-style: normal;
   
 }
 
+/* footer css */
+footer.footer {
+  padding: 60px 0;
+}
+.footer .container .row .img {
+  display: flex;
+}
+.footer .container .row .img img {
+  max-width: 10%;
+  margin: auto;
+}
+
+/* footer section responsive */
+@media screen and (max-width: 768px) {
+
+  
+}
+
 
