@@ -742,6 +742,24 @@ footer.footer {
   font-size: 20px;
   color: var(--primary-color);
 }
+.footer .container .row .address-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.footer .container .row .address-links a {
+  margin: 0 10px;
+}
+.footer .container .row .address-links a i {
+  font-size: 17px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.footer .container .row .address-links a span {
+  font-size: 15px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
 
 /* footer section responsive */
 @media screen and (max-width: 768px) {
