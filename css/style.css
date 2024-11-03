@@ -188,7 +188,8 @@ section {
 .header .phone-icon{
   font-size: 2rem;
 }
-.header .contact-content{
+.header .contact-content,
+.header-active .contact-content{
   background-color: var(--primary-color);
   color: var(--white-color) !important;
   padding: 15px 25px;
@@ -569,10 +570,10 @@ section.teams-img {
 }
 
 .gallery .container .swiper img {
-  width: 85%;
+  width: 100%;
 }
 .gallery .container .swiper .swiper-slide {
-  padding: 20px;
+  padding: 10px;
 }
 
 

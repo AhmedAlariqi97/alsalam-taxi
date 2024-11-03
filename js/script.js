@@ -89,7 +89,7 @@ const activePage = window.location.pathname;
   sr.reveal(`.title-section,.weWorkTitle`, {interval:100,})
 
 sr.reveal(`.content,.about-left`, {origin: 'left'})
-sr.reveal(`.contact-content,.about-right,.about-left-shape`, {origin: 'right'})
+sr.reveal(`.about-right,.about-left-shape`, {origin: 'right'})
 
 
   
