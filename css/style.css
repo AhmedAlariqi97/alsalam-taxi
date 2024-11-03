@@ -509,7 +509,7 @@ section {
   display: flex;
 }
 .services .container .row .img {
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
 }
 
