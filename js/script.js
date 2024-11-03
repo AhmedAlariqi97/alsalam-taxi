@@ -47,6 +47,18 @@ const activePage = window.location.pathname;
 
 
 
+  // Scroll Reveal Animation
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+  })
+  
+  sr.reveal(`.title-section,.weWorkTitle`, {interval:100,})
+
+sr.reveal(`.content,.about-left`, {origin: 'left'})
+sr.reveal(`.contact-content,.about-right,.about-left-shape`, {origin: 'right'})
 
 
   
