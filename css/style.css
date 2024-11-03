@@ -569,7 +569,10 @@ section.teams-img {
 }
 
 .gallery .container .swiper img {
-  width: 80%;
+  width: 85%;
+}
+.gallery .container .swiper .swiper-slide {
+  padding: 20px;
 }
 
 
