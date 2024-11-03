@@ -86,10 +86,10 @@ const activePage = window.location.pathname;
     delay: 400,
   })
   
-  sr.reveal(`.title-section,.weWorkTitle`, {interval:100,})
+  sr.reveal(`.title-section,.weWorkTitle,.address-links`, {interval:100,})
 
-sr.reveal(`.content,.about-left`, {origin: 'left'})
-sr.reveal(`.about-right,.about-left-shape`, {origin: 'right'})
+sr.reveal(`.content,.about-left,.social-icons`, {origin: 'left'})
+sr.reveal(`.about-right,.about-left-shape,.footer .img,.contact-us .form`, {origin: 'right'})
 
 
   
