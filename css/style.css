@@ -357,7 +357,7 @@ section {
   text-align: right;
   font-size: 20px;
 }
-.about .container .col-5 {
+.about .container .img {
   background-image: url(../images/img9.jpg);
   background-position: top center;
   background-repeat: no-repeat;
